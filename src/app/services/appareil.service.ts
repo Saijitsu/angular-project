@@ -63,8 +63,8 @@ export class AppareilService {
 
   saveAppareilsToServer() {
     this.httpClient
-    .put('https://angular-project-25de1.firebaseio.com/appareils.json', this.appareils)
-    .subscribe(
+      .put('https://angular-project-25de1.firebaseio.com/appareils.json', this.appareils)
+      .subscribe(
         () => {
           console.log('Enregistrement terminé !');
         },
@@ -72,7 +72,7 @@ export class AppareilService {
           console.log('Erreur ! : ' + error);
         }
       );
-}
+  }
 
   getAppareilsFromServer() {
     this.httpClient
@@ -88,5 +88,7 @@ export class AppareilService {
       );
   }
 }
+
+
 
 

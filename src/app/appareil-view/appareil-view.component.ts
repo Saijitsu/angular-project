@@ -37,7 +37,6 @@ export class AppareilViewComponent implements OnInit {
       }
     );
     this.appareilService.emitAppareilSubject();
-    this.onFetch(); // Rend le chargement automatique de la base de donnée
   }
 
   onAllumer() {
