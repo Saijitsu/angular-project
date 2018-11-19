@@ -1,7 +1,13 @@
 li a {
   color: white;
+  text-decoration: none;
+}
+
+.navbar-brand a {
+  color: white;
   text-align: center;
-  margin: 5px;
+  font-size: 1em;
+  margin: 1px;
   text-decoration: none;
 }
 
